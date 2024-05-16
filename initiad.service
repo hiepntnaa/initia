@@ -1,0 +1,15 @@
+[Unit]
+Description=initiad
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/go/bin/initiad start
+Restart=on-abort
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=initiad
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
