@@ -19,7 +19,7 @@ version = "0.38.7"
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "vmi1875344.contaboserver.net"
+moniker = "ANNIE"
 
 # Database backend: goleveldb | cleveldb | boltdb | rocksdb | badgerdb
 # * goleveldb (github.com/syndtr/goleveldb - most popular implementation)
@@ -206,10 +206,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = ""
+seeds = "2eaa272622d1ba6796100ab39f58c75d458b9dbc@34.142.181.82:26656,c28827cb96c14c905b127b92065a3fb4cd77d7f6@testnet-seeds.whispernode.com:25756"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = ""
+persistent_peers = "7033bed7fa79360e24d5d0cf2f5fee8a683766a9@154.26.129.223:17956,de31968f3b35942b5a1123998ff0c4ebd3c3aae5@88.99.193.146:26656,e6d739d5ca619173c1e9bfa95f4cd8e51815f521@131.153.207.169:26656,0d6437ca9242b5878f6c784b88e918ba12f12c08@89.58.63.240:53456,a8638b4701f2d11e9269dfd4c2ed0509bd7b12d9@194.163.191.117:39656,1ed49c5cbd3f95dab740664af09688df6f1a02ba@65.109.115.15:15656,269dfd1372682d377dbcdbc5d9721cae8bf9ffd1@113.61.111.247:26656,377ebad64f21273af6259573d7722ca158630f6e@158.220.105.35:26656,a3660a8b7a0d88b12506787b26952930f1774fc2@65.21.69.53:48656"
 
 # Path to address book
 addr_book_file = "config/addrbook.json"
