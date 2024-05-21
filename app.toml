@@ -287,7 +287,7 @@ oracle_address = "127.0.0.1:8080"
 
 # Client Timeout is the time that the client is willing to wait for responses from 
 # the oracle before timing out.
-client_timeout = "500ms"
+client_timeout = "300ms"
 
 # MetricsEnabled determines whether oracle metrics are enabled. Specifically
 # this enables instrumentation of the oracle client and the interaction between
