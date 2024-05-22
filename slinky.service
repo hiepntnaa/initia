@@ -1,0 +1,13 @@
+[Unit]
+Description=slinky
+After=network.target
+
+[Service]
+User=root
+Type=simple
+ExecStart=/usr/local/bin/slinky --oracle-config-path /root/slinky/config/core/oracle.json
+Restart=on-failure
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
