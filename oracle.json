@@ -7,9 +7,9 @@
       "api": {
         "enabled": true,
         "timeout": 3000000000,
-        "interval": 200000000,  // Reduced interval time for more frequent calls
+        "interval": 200000000,
         "reconnectTimeout": 2000000000,
-        "maxQueries": 15,  // Increased max queries for higher priority
+        "maxQueries": 15,
         "atomic": true,
         "url": "https://oracle-api.example.com/v3/ticker/price?symbols=%s%s%s",
         "endpoints": null,
@@ -39,7 +39,7 @@
       "api": {
         "enabled": true,
         "timeout": 3000000000,
-        "interval": 1000000000,  // Increased interval time to reduce call frequency
+        "interval": 1000000000,
         "reconnectTimeout": 2000000000,
         "maxQueries": 5,
         "atomic": true,
@@ -71,7 +71,7 @@
       "api": {
         "enabled": true,
         "timeout": 3000000000,
-        "interval": 1000000000,  // Increased interval time to reduce call frequency
+        "interval": 1000000000,
         "reconnectTimeout": 2000000000,
         "maxQueries": 5,
         "atomic": false,
@@ -103,7 +103,7 @@
       "api": {
         "enabled": true,
         "timeout": 3000000000,
-        "interval": 1000000000,  // Increased interval time to reduce call frequency
+        "interval": 1000000000,
         "reconnectTimeout": 2000000000,
         "maxQueries": 1,
         "atomic": true,
