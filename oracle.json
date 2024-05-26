@@ -1,8 +1,5 @@
-// config/core/oracle.json found in the repo.
-
-```json
 {
-  ...,
+  "services": [
     {
       "name": "marketmap_api",
       "api": {
@@ -12,10 +9,9 @@
         "reconnectTimeout": 2000000000,
         "maxQueries": 1,
         "atomic": true,
-        "url": "0.0.0.0:9090", // URL that must point to a node GRPC endpoint
+        "url": "0.0.0.0:9090",
         "endpoints": null,
-        "batchSize": 0,
-        "name": "marketmap_api"
+        "batchSize": 0
       },
       "type": "market_map_provider"
     }
@@ -27,4 +23,3 @@
   "host": "0.0.0.0",
   "port": "8080"
 }
-```
