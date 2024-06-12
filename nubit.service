@@ -1,0 +1,16 @@
+[Unit]
+Description=nubit
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/nubit-node/start.sh
+Restart=on-failure
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nubit
+
+[Install]
+WantedBy=multi-user.target
