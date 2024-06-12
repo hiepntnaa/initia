@@ -5,8 +5,10 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/root/nubit-node
+ExecStartPre=/bin/bash -c 'cd /root/nubit-node'
 ExecStart=/bin/bash /root/nubit-node/start.sh
 Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
