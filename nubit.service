@@ -9,6 +9,8 @@ ExecStartPre=/bin/bash -c 'cd /root/nubit-node'
 ExecStart=/bin/bash /root/nubit-node/start.sh
 Restart=always
 RestartSec=10
+CPUQuota=20%
+MemoryLimit=300M
 
 [Install]
 WantedBy=multi-user.target
